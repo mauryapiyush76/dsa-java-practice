@@ -1,5 +1,7 @@
 package io.java.Lecture_3_conditionals_and_loops;
 
+import java.util.Scanner;
+
 public class FindCharecterCase {
 
 	/*
@@ -29,10 +31,20 @@ public class FindCharecterCase {
 	 * 
 	 * #####Sample Output 3 : -1
 	 */
-	
-	public static void main(String[] args) {
-		
 
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+		
+		char c = in.next().charAt(0);
+
+		if (c >= 'A' && c <= 'Z') {
+			System.out.println("1");
+		} else if (c >= 'a' && c <= 'z') {
+			System.out.println("0");
+		} else {
+			System.out.println("-1");
+		}
 	}
 
 }
