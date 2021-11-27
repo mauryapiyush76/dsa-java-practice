@@ -1,4 +1,4 @@
-package io.java.Lecture_5_patterns_2;
+package io.java.Lecture_patterns_2;
 
 import java.util.Scanner;
 
